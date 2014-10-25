@@ -52,12 +52,11 @@ table {
 
 /* my work below */
 
-* {
-	outline:1px solid green;
-}
+
+
 html {
 	font-family: "futura-pt",sans-serif;
-	background-color:yellow;
+	background-color:white;
 	width:100%;
 	/* background-image: url("images/streetAccord.jpg"); */
 }
@@ -77,19 +76,19 @@ box-shadow: 0 1px 0 rgba(0,0,0,.17);
 	max-width:1400px;
 	height:60px;
 	margin: 0 auto;
-	background-color:pink;
+	background-color:white;
 }
 
 #portfolioTitle {
 	height:80%;
-	margin:7px 0px 7px 20px;
+	margin:7px 0px 7px 80px;
 	top: 0;
 	left: 0;
 }
 
 #envelope {
 	height:50%;
-	margin:15px 20px 15px 0px;
+	margin:15px 80px 15px 0px;
 	top: 0;
 	float:right;
 }
@@ -106,42 +105,54 @@ box-shadow: 0 1px 0 rgba(0,0,0,.17);
 #main {
 display: block;
 width: 100%;
-height: 100%;
+height: auto;
 position:relative;
-background-color:red;
+background-color:white;
 margin-top:61px;
 }
 
 #innerMain {
 max-width:1400px;
-min-height:100px;
+height:auto;
 margin: 0 auto;
-background-color:lightblue;
-/* background-image: url("images/streetAccord.jpg");
-background-size:1400px; */
+background-color:white;
+background-image: url("images/streetAccord.jpg");
+background-repeat:no-repeat;
+background-size:contain;
+background-position:center;
 }
 
 #innerMain img {
-	width:100%;
-	min-width:1400px;
+	max-width: 100%;
+	height: auto;
+	z-index:-1;
 }
 
+#mainText {
+	max-width: 30%;
+	height: auto;
+	margin-left:50%;
+	margin-top:61px;
+	z-index:1;
+}
 
 #foot {
 display: inline-block;
 width: 100%;
-height: 180px;
+height: 200px;
 position: absolute;
-background-color:white;
+background-color:#f3f3f3;
 bottom: 0;
 left: 0;
 box-shadow: 0 1px 0 rgba(0,0,0,.17);
+
 }
 
 #portText {
 	height:40px;
-	width:1400px;
+	max-width:1400px;
 	margin: 0 auto;
+	background-color:white;
 }
 
 #portText img {
@@ -151,15 +162,21 @@ box-shadow: 0 1px 0 rgba(0,0,0,.17);
 }
 
 #framesWrapper {
-width:1400px;
-height:120px;
+max-width:1400px;
+height:160px;
 margin:0 auto;
+background-color:#454545;
 }
 
 .siteFrames {
-	width:10%;
+	max-width:12%;
 	outline:1px solid red;
-	height:10px;
-
+	height:auto;
+	background-color:orange;
 	display:inline-block;
+	margin:10px;
+}
+
+.siteFrames img {
+	width:100%;
 }
