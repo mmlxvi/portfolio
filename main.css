@@ -159,7 +159,7 @@ display: block;
 width: 100%;
 height: auto;
 position:relative;
-background-color:white;
+background-color:#f3f3f3;
 margin-top:61px;
 }
 
@@ -167,7 +167,7 @@ margin-top:61px;
 max-width:1400px;
 height:auto;
 margin: 0 auto;
-background-color:white;
+background-color:#f3f3f3;
 background-image: url("images/streetAccord.jpg");
 background-repeat:no-repeat;
 background-size:contain;
@@ -195,9 +195,13 @@ display:;
 #mainText {
 	max-width: 30%;
 	height: auto;
-	margin-left:50%;
+	margin-left:52%;
 	margin-top:61px;
 	z-index:1;
+}
+
+#HTMLtext {
+	margin:10px;
 }
 
 #mainText2 {
