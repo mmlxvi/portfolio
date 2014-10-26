@@ -216,6 +216,12 @@ display:none;
 	z-index:1;
 }
 
+
+#textHolder {
+	width:300px;
+	height:580px;
+}
+
 #HTMLtext {
 	margin:10px;
 }
