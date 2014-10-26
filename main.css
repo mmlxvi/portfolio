@@ -79,7 +79,7 @@ height: 60px;
 position: absolute;
 background-color:white;
 
-box-shadow: 0 1px 0 rgba(0,0,0,.17);
+border-top:1px solid rgba(0,0,0,.17);
 }
 
 #innerHeader {
@@ -94,7 +94,7 @@ box-shadow: 0 1px 0 rgba(0,0,0,.17);
 	height:60px;
 	margin: 0 auto;
 	background-color:white;
-	
+
 }
 
 #footer {
@@ -182,10 +182,25 @@ display:;
 }
 
 #innerMain2 {
-	background-color:black;
+	max-width:1400px;
+	height:auto;
+	margin: 0 auto;
+	background-color:white;
+	background-image: url("images/streetAccorddark.jpg");
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position:center;
 }
 
 #mainText {
+	max-width: 30%;
+	height: auto;
+	margin-left:50%;
+	margin-top:61px;
+	z-index:1;
+}
+
+#mainText2 {
 	max-width: 30%;
 	height: auto;
 	margin-left:50%;
@@ -223,17 +238,18 @@ box-shadow: 0 1px 0 rgba(0,0,0,.17);
 max-width:1250px;
 height:160px;
 margin:0 auto;
-background-color:#f3f3f3;
+
 text-align:center;
+top:61px;
 }
 
 .siteFrames {
 	max-width:14%;
-	outline:1px solid black;
+	outline:10px solid #f3f3f3;
 	height:auto;
-	/* background-color:orange; */
+	background-color:#f3f3f3;
 	display:inline-block;
-	margin:23px 10px 10px 10px;
+	margin:12px;
 }
 
 .siteFrames img {
