@@ -4,17 +4,16 @@ $(document).ready(function() {
     alert('working');
     })
 
- $('.siteFrames').click(function(){
-    $('#innerMain').toggle();
-    $('#innerMain2').toggle();
-
-  })
+ //$('.siteFrames').click(function(){
+//    $('#HTMLtext').toggle();
+//  })
 
   var mainTextLibrary = ["images/todoText.png", "images/rrText.png", "images/artquizText.png", "images/fizzbuzzText.png",
                           "images/hotorcoldText.png", "images/japanTVText.png"]
 
 $('#site1').click(function(){
-  $('#mainText2').append(mainTextLibrary[0]);
+  $('#HTMLtext').toggle();
+  $('#textImage1').toggle();
 })
 
 })

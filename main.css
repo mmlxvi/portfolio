@@ -168,11 +168,11 @@ max-width:1400px;
 height:auto;
 margin: 0 auto;
 background-color:#f3f3f3;
-background-image: url("images/streetAccord.jpg");
+/*background-image: url("images/streetAccord.jpg");
 background-repeat:no-repeat;
 background-size:contain;
-background-position:center;
-display:none;
+background-position:center; */
+
 }
 
 #innerMain img {
@@ -185,12 +185,12 @@ display:none;
 	max-width:1400px;
 	height:auto;
 	margin: 0 auto;
-	background-color:white;
+	background-color:#f3f3f3;
 	background-image: url("images/streetAccorddark.jpg");
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
-	display:;
+	display:none;
 }
 
 #innerMain2 img {
@@ -217,15 +217,19 @@ display:none;
 }
 
 
-#textHolder {
-	width:300px;
-	height:580px;
-}
 
 #HTMLtext {
 	margin:10px;
 }
 
+.textImages {
+	display:none;
+}
+
+#textImagesHolder img {
+
+width:8%;
+}
 
 
 #foot {
