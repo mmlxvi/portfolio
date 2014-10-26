@@ -172,7 +172,7 @@ background-image: url("images/streetAccord.jpg");
 background-repeat:no-repeat;
 background-size:contain;
 background-position:center;
-display:;
+display:none;
 }
 
 #innerMain img {
@@ -190,6 +190,14 @@ display:;
 	background-repeat:no-repeat;
 	background-size:contain;
 	background-position:center;
+	display:;
+}
+
+#innerMain2 img {
+	max-width: 80%;
+	height: auto;
+	z-index:-1;
+	margin-top:18px;
 }
 
 #mainText {
@@ -200,17 +208,19 @@ display:;
 	z-index:1;
 }
 
+#mainText2 {
+	max-width: 30%;
+	height: auto;
+	margin-left:6%;
+	margin-top:61px;
+	z-index:1;
+}
+
 #HTMLtext {
 	margin:10px;
 }
 
-#mainText2 {
-	max-width: 30%;
-	height: auto;
-	margin-left:50%;
-	margin-top:61px;
-	z-index:1;
-}
+
 
 #foot {
 display: inline-block;
