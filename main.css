@@ -157,13 +157,31 @@ box-shadow: 0 1px 0 rgba(0,0,0,.17);
 #main {
 display: block;
 width: 100%;
- min-height:400px;
+/* min-height:600px; */
 height: auto;
 position:relative;
 /* background-color:#f3f3f3; */
 background-color:red;
 margin-top:61px;
 }
+
+#landing {
+	text-align:center;
+}
+
+
+#landing img {
+	max-width:1400px;
+	width:100%;
+	height:auto;
+	/* min-height:500px; */
+	margin: 0 auto;
+	/* background-color:#f3f3f3; */
+	background-color:blue;
+}
+
+
+
 
 #innerMain {
 max-width:1400px;
