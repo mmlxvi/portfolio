@@ -92,6 +92,28 @@ border-bottom:1px solid rgba(0,0,0,.17);
 
 }
 
+#innerHeader3 {
+	max-width:1400px;
+	height:40px;
+	margin: 0 auto;
+	text-align:right;
+	background-color:white;
+	border-bottom:1px solid rgba(0,0,0,.17);
+	display:inline-block;
+}
+
+#innerHeader3 img {
+	width:10%;
+}
+
+#contactImage  {
+	height:50%;
+	margin:15px 16px 15px 0px;
+	top: 0;
+	float:right;
+	display:none;
+}
+
 #innerHeader2 {
 	max-width:1400px;
 	height:40px;
@@ -99,6 +121,7 @@ border-bottom:1px solid rgba(0,0,0,.17);
 	background-color:white;
 border-bottom:1px solid rgba(0,0,0,.17);
 }
+
 
 #footer {
 display: block;
@@ -142,6 +165,7 @@ box-shadow: 0 1px 0 rgba(0,0,0,.17);
 }
 
 #envelope {
+	background-color:#f3f3f3;
 	height:50%;
 	margin:15px 80px 15px 0px;
 	top: 0;
@@ -152,9 +176,10 @@ box-shadow: 0 1px 0 rgba(0,0,0,.17);
 #contactBar {
 	width:100%;
 	height:50px;
-	margin-top:60px;
-	background-color:blue;
-	display:none;
+
+	background-color:white;
+	position:fixed;
+	z-index:1;
 }
 
 #main {
